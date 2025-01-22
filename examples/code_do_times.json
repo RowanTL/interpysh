@@ -1,0 +1,9 @@
+[
+  {"a": "lit", "t": "int", "v": 6},
+  {"a": "lit", "t": "int", "v": 3},
+  {"a": "lit", "t": "int", "v": 4},
+  {"a": "lit", "t": "int", "v": 2},
+  {"a": "instr", "n": "code_from_exec"},
+  {"a": "instr", "n": "int_add"},
+  {"a": "instr", "n": "code_do_times"}
+]

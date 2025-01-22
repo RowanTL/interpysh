@@ -1,0 +1,5 @@
+[
+  {"a": "instr", "n": "code_from_exec"},
+  {"a": "instr", "n": "float_from_int"},
+  {"a": "instr", "n": "code_pop"}
+]
