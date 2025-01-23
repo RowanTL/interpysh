@@ -1,0 +1,13 @@
+[
+  {"a": "instr", "n": "code_from_exec"},
+  [
+    {"a": "lit", "t": "int", "v": 0},
+    {"a": "lit", "t": "int", "v": 1},
+    {"a": "lit", "t": "int", "v": 2},
+    {"a": "lit", "t": "int", "v": 3},
+    {"a": "lit", "t": "int", "v": 4},
+    {"a": "lit", "t": "int", "v": 5}
+  ],
+  {"a": "lit", "t": "int", "v": 0},
+  {"a": "instr", "n": "code_nth"}
+]

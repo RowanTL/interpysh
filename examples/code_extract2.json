@@ -1,0 +1,22 @@
+[
+  {"a": "instr", "n": "code_from_exec"},
+  [
+    {"a": "lit", "t": "int", "v": 1},
+    [
+      {"a": "lit", "t": "int", "v": 2},
+      {"a": "lit", "t": "int", "v": 3}
+    ],
+    [
+      {"a": "lit", "t": "int", "v": 4},
+      {"a": "lit", "t": "int", "v": 5}
+    ],    
+    {"a": "lit", "t": "int", "v": 6},
+    [
+      {"a": "lit", "t": "int", "v": 7},
+      {"a": "lit", "t": "int", "v": 8}
+    ],
+    {"a": "lit", "t": "int", "v": 9}
+  ],
+  {"a": "lit", "t": "int", "v": 3},
+  {"a": "instr", "n": "code_extract"}
+]
