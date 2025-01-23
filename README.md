@@ -22,7 +22,11 @@ Inspired by: https://lspector.github.io/interpush/
 
 # Notes
 
-There is stack output to the terminal if needed.
+**THERE IS NO SUPPORT FOR INPUTS. LITERALS AND INSTRUCTIONS ONLY**
+
+If you load code into interpysh and it doesn't update, check the console. There may be an error when loading json.
+
+The stacks are pretty printed to the terminal if needed.
 
 There's a bug in code_extract in pysh. If the index is 0, code_returns returns the entire CodeBlock rather than the 0th index of the CodeBlock.
 Furthermore, extract_code is unable to return the final element of any CodeBlock.
