@@ -28,5 +28,5 @@ If you load code into interpysh and it doesn't update, check the console. There 
 
 The stacks are pretty printed to the terminal if needed.
 
-There's a bug in code_extract in pysh. If the index is 0, code_returns returns the entire CodeBlock rather than the 0th index of the CodeBlock.
-Furthermore, extract_code is unable to return the final element of any CodeBlock.
+There's a bug in code_extract in pysh. If the index is 0, code_extract returns the entire CodeBlock rather than the 0th index of the CodeBlock.
+Furthermore, code_extract is unable to return the final element of any CodeBlock.
