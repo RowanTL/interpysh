@@ -124,6 +124,7 @@ def run():
         vector_char_str.set("vector_char: " + str(state["vector_char"]))
         vector_bool_str.set("vector_bool: " + str(state["vector_bool"]))
         state.pretty_print()
+        print("-----------------------------------------------------")
 
     exec_str: tk.StringVar = tk.StringVar()
     exec_label: tk.Label = tk.Label(
