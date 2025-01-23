@@ -116,11 +116,14 @@ def run():
         int_str.set("int: " + str(state["int"]))
         float_str.set("float: " + str(state["float"]))
         str_str.set("str: " + str(state["str"]))
+        bool_str.set("bool: " + str(state["bool"]))
         char_str.set("char: " + str(state["char"]))
         vector_int_str.set("vector_int: " + str(state["vector_int"]))
         vector_float_str.set("vector_float: " + str(state["vector_float"]))
         vector_str_str.set("vector_str: " + str(state["vector_str"]))
         vector_char_str.set("vector_char: " + str(state["vector_char"]))
+        vector_bool_str.set("vector_bool: " + str(state["vector_bool"]))
+        state.pretty_print()
 
     exec_str: tk.StringVar = tk.StringVar()
     exec_label: tk.Label = tk.Label(
@@ -158,6 +161,12 @@ def run():
         textvariable=char_str,
     )
 
+    bool_str: tk.StringVar = tk.StringVar()
+    bool_label: tk.Label = tk.Label(
+        master=root,
+        textvariable=bool_str
+    )
+
     vector_int_str: tk.StringVar = tk.StringVar()
     vector_int_label: tk.Label = tk.Label(
         master=root,
@@ -182,6 +191,12 @@ def run():
         textvariable=vector_int_str,
     )
 
+    vector_bool_str: tk.StringVar = tk.StringVar()
+    vector_bool_label: tk.Label = tk.Label(
+        master=root,
+        textvariable=vector_bool_str
+    )
+
     # Place everything on the grid    
     file_path_label.grid(row = 0, sticky=tk.W)
     file_path_button.grid(row = 1, sticky=tk.W)
@@ -195,10 +210,12 @@ def run():
     float_label.grid(row = 9, sticky=tk.W)
     str_label.grid(row = 10, sticky=tk.W)
     char_label.grid(row = 11, sticky=tk.W)
-    vector_int_label.grid(row = 12, sticky=tk.W)
-    vector_float_label.grid(row = 13, sticky=tk.W)
-    vector_str_label.grid(row = 14, sticky=tk.W)
-    vector_char_label.grid(row = 15, sticky=tk.W)
+    bool_label.grid(row = 12,sticky=tk.W)
+    vector_int_label.grid(row = 13, sticky=tk.W)
+    vector_float_label.grid(row = 14, sticky=tk.W)
+    vector_str_label.grid(row = 15, sticky=tk.W)
+    vector_char_label.grid(row = 16, sticky=tk.W)
+    vector_bool_label.grid(row = 17, sticky=tk.W)
 
     # run the gui
     root.mainloop()
