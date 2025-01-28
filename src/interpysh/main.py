@@ -189,7 +189,7 @@ def run():
     vector_char_str: tk.StringVar = tk.StringVar()
     vector_char_label: tk.Label = tk.Label(
         master=root,
-        textvariable=vector_int_str,
+        textvariable=vector_char_str,
     )
 
     vector_bool_str: tk.StringVar = tk.StringVar()
