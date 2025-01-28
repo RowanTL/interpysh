@@ -1,0 +1,5 @@
+[
+  {"a": "lit", "t": "str", "v": "d"},
+  {"a": "lit", "t": "str", "v": "hello gamer friend"},
+  {"a": "instr", "n": "str_split_on_str"}
+]

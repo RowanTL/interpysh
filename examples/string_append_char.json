@@ -1,0 +1,5 @@
+[
+  {"a": "lit", "t": "char", "v": "d"},
+  {"a": "lit", "t": "str", "v": "hello gamer friend"},
+  {"a": "instr", "n": "str_append_char"}
+]

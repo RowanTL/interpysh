@@ -1,0 +1,6 @@
+[
+  {"a": "lit", "t": "int", "v": 3},
+  {"a": "lit", "t": "float", "v": 3.3},
+  {"a": "lit", "t": "float", "v": 4.4},
+  {"a": "instr", "n": "float_dup_times"}
+]
