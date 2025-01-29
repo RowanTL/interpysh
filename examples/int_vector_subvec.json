@@ -1,6 +1,6 @@
 [
-  {"a": "lit", "t": "int", "v": 0},
-  {"a": "lit", "t": "int", "v": 2},
+  {"a": "lit", "t": "int", "v": -30},
+  {"a": "lit", "t": "int", "v": 99},
   {"a": "lit", "t": "vector_int", "v": [1,2,3,4,5,6]},
   {"a": "instr", "n": "vector_int_subvec"}
 ]

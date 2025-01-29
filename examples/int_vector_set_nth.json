@@ -1,0 +1,6 @@
+[
+  {"a": "lit", "t": "int", "v": 99},
+  {"a": "lit", "t": "int", "v": 3},
+  {"a": "lit", "t": "vector_int", "v": [0,1,2,3,4,5]},
+  {"a": "instr", "n": "vector_int_set_nth"}
+]
