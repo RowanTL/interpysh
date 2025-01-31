@@ -1,0 +1,8 @@
+[
+  {"a": "lit", "t": "int", "v": 3},
+  {"a": "lit", "t": "int", "v": 1},
+  {"a": "lit", "t": "int", "v": 2},
+  {"a": "lit", "t": "int", "v": 3},
+  {"a": "lit", "t": "int", "v": 4},
+  {"a": "instr", "n": "int_yank"}
+]

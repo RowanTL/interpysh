@@ -1,0 +1,4 @@
+[
+  {"a": "lit", "t": "bool", "v": true},
+  {"a": "instr", "n": "bool_is_empty"}
+]

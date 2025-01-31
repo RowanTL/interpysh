@@ -1,0 +1,5 @@
+[
+  {"a": "lit", "t": "vector_int", "v": [1,2,3,4,5]},
+  {"a": "lit", "t": "int", "v": 2},
+  {"a": "instr", "n": "vector_int_index_of"}
+]

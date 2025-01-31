@@ -1,0 +1,10 @@
+[
+  {"a": "lit", "t": "int", "v": 55},
+  {"a": "lit", "t": "int", "v": 44},
+  {"a": "lit", "t": "int", "v": 33},
+  {"a": "lit", "t": "int", "v": 22},
+  {"a": "lit", "t": "int", "v": 11},
+  {"a": "lit", "t": "int", "v": 0},
+  {"a": "lit", "t": "int", "v": 2},
+  {"a": "instr", "n": "int_yank"}
+]
